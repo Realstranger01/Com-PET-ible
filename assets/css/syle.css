@@ -1,9 +1,40 @@
+/* Add some custom styling to make the page look neat, presentable and user-friendly */
+
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
 
 
+.navbar {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: #64a19d;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
 
 
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
 
 
-  
-  
-  
