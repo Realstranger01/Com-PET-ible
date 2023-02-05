@@ -12,7 +12,7 @@ html {
 
 .navbar {
    border-color: rgba(34, 34, 34, 0.05);
-   background-color: #64a19d;
+   background-color: rgb(85, 149, 150);
    transition: all .35s;
    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
    font-weight: 200;
@@ -45,7 +45,7 @@ html {
 }
 
 .col-6 {
-   border-color: rgba(34, 34, 34, 0.05);
+   border-color: rgb(255, 255, 255);
    display: flex;
    align-items: flex-end;
    margin: opx-15px;
@@ -56,11 +56,11 @@ html {
 
 .btn {
    color: white;
-
+   background-color: rgb(85, 149, 150);
 }
 
 .text-left {
-   border-color: rgba(34, 34, 34, 0.05);
+   border-color: rgb(255, 253, 253);
    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
    font-size: 28px;
    display: flex;
@@ -77,7 +77,7 @@ html {
 }
 
 aside {
-   border-color: rgba(34, 34, 34, 0.05);
+   border-color: rgb(242, 238, 238);
    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
    display: flex;
    align-items: flex-start;
@@ -89,7 +89,7 @@ aside {
 .card {
    width: 300px;
    height: 200px;
-   background-color: lightgray;
+   background-color: rgb(85, 149, 150);
    display: inline-block;
    float: none;
    margin: 20px;
@@ -127,7 +127,7 @@ footer {
    right: 0;
    text-align: center;
    margin-top: auto;
-   border-color: rgba(34, 34, 34, 0.05);
+   border-color: rgb(255, 255, 255);
    background-color: #64a19d;
    transition: all .35s;
    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
