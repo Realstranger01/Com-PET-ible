@@ -1,90 +1,119 @@
 /* Add some custom styling to make the page look neat, presentable and user-friendly */
 
-body {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+body,
+html {
+   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+   height: 100%;
+   min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .navbar {
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color: #64a19d;
-    transition: all .35s;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+   border-color: rgba(34, 34, 34, 0.05);
+   background-color: #64a19d;
+   transition: all .35s;
+   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+   font-weight: 200;
+   letter-spacing: 1px;
+   
 }
 
 
 .navbar-nav {
-    display: flex;
+   display: flex;
 }
 
 .nav-item {
-    font-size: 11px;
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    letter-spacing: 2px;
-    text-transform: uppercase;
+   font-size: 11px;
+   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   
 
 }
 
 .nav-link {
-    color: #333;
-    font-weight: bold;
-    text-decoration: none;
+   color: #333;
+   font-weight: bold;
+   text-decoration: none;
 }
 
 .nav-link:hover {
-    color: #007bff;
+   color: #007bff;
 }
 
- .col-6 {
-    display: flex;
-    align-items: flex-end;
-    margin: opx-15px;
-    justify-content: flex-end;
-    margin-left: 50%;
- }
+.col-6 {
+   display: flex;
+   align-items: flex-end;
+   margin: opx-15px;
+   justify-content: flex-end;
+   margin-left: 50%;
+}
 
- .text-center-mt-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- }
- 
- h1 {
-    text-align: center;
-    margin-bottom: 20px;
- }
- 
- .row {
-    display: flex;
-    align-items: flex-start;
- }
- 
- aside {
-    display: flex;
-    align-items: flex-start;
- }
- 
- .card-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
- }
- 
- .h3.aside {
-    display: flex;
-    align-items: flex-start;
- }
- 
- .container-fluid {
-    position: relative;
-    width: 100%;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    color: white;
-    background: url("../images/background.jpg");
-  }
- 
+.text-center-mt-3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 20px;
+   gap: .25rem;
+}
+
+.row {
+   display: flex;
+   align-items: flex-start;
+   gap: .25rem;
+}
+
+aside {
+   display: flex;
+   align-items: flex-start;
+}
+
+.card-header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.h3.aside {
+   display: flex;
+   align-items: flex-start;
+}
+
+.container-fluid {
+   background: url("../images/background.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   text-align: center;
+   margin-top: auto;
+   border-color: rgba(34, 34, 34, 0.05);
+   background-color: #64a19d;
+   transition: all .35s;
+   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+   font-weight: 200;
+   letter-spacing: 1px;
+}
+
+.p {
+   width: 100%;
+   padding: 20px;
+   
+}
