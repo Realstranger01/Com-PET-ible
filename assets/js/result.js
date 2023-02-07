@@ -1,6 +1,6 @@
-var breedNameEl = document.getElementById("dog-breed");
-var breedTypeEl = document.getElementById("dog-type");
-var breedDescriptionEl = document.getElementById("dog-description");
+var breedNameEl = document.getElementById("breed-name");
+var breedTypeEl = document.getElementById("breed-type");
+var breedDescriptionEl = document.getElementById("breed-description");
 var userResultEl = document.getElementById("user-result");
 
 var query = breedNameEl.value;
