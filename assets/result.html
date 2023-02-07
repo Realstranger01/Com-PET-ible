@@ -79,22 +79,20 @@
                 crossorigin="anonymous"></script>
             
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type="text/javascript" src="./assets/js/script.js">
               
-            </script>
         </div>
     </div>
 
     <div class="container">
         <h2>Your Best Match</h2>
         <p>These results are based on the information you provided us by answering the questionnaire</p>
-        <table class="table">
+        <table id="user-result" class="table">
           <thead>
             <tr>
               <!-- The scope attribute specifies that this is a header for a column -->
-              <th scope="col">Breed Name</th>
-              <th scope="col">Breed Type</th>
-              <th scope="col">Breed Description</th>
+              <th id="dog-breed" scope="col">Breed Name</th>
+              <th id="dog-type" scope="col">Breed Type</th>
+              <th id="dog-description" scope="col">Breed Description</th>
             </tr>
           </thead>
           <tbody>
@@ -108,7 +106,8 @@
         </table>
       </div>
 
-    
+    <script type="text/javascript" src="./js/result.js"></script>
+
 </body>
 
 <footer>
