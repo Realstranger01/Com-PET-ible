@@ -1,8 +1,19 @@
 var webSearchEl = document.getElementById("web-search");
 var submitBtnEl = document.getElementById("submit-btn");
 
+
+// Check if there is any saved query in local storage
+var savedQuery = localStorage.getItem("query");
+if (savedQuery) {
+webSearchEl.value = savedQuery;
+}
+
 submitBtnEl.addEventListener("click", function (event) {
-  event.preventDefault();
+event.preventDefault();
+
+var query = webSearchEl.value;
+// Save the query in local storage
+localStorage.setItem("query", query);
 
   var query = webSearchEl.value;
   var url = `https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=${query}&pageNumber=1&pageSize=10&autoCorrect=true`;
