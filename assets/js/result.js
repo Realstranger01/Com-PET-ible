@@ -1,7 +1,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://dogbreeddb.p.rapidapi.com/?search=alaskan",
+	"url": "https://dogbreeddb.p.rapidapi.com/?search=breed",
 	"method": "GET",
 	"headers": {
 		"X-RapidAPI-Key": "e550cee4f9msh7a1c81a2af99233p1ab958jsn10c436fb5af0",
