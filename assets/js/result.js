@@ -1,7 +1,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://dogbreeddb.p.rapidapi.com/?search=alaskan",
+	"url": "https://dogbreeddb.p.rapidapi.com/?search=breed",
 	"method": "GET",
 	"headers": {
 		"X-RapidAPI-Key": "e550cee4f9msh7a1c81a2af99233p1ab958jsn10c436fb5af0",
@@ -74,52 +74,46 @@ if (typeof (Storage) !== "undefined") {
 }
 
 
+const modal = document.createElement("div");
+modal.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+modal.style.position = "fixed";
+modal.style.top = "0";
+modal.style.left = "0";
+modal.style.width = "100%";
+modal.style.height = "100%";
+modal.style.display = "flex";
+modal.style.justifyContent = "center";
+modal.style.alignItems = "center";
 
-// Add modal HTML to the DOM
-const modalHTML = `
+const modalContent = document.createElement("div");
+modalContent.style.backgroundColor = "#fff";
+modalContent.style.padding = "20px";
+modalContent.style.borderRadius = "10px";
 
-<div id="modal" class="modal">
-	<div class="modal-content">
-		<span class="close-modal">&times;</span>
-		<p id="modal-text"></p>
-	</div>
-</div>`;
-document.body.insertAdjacentHTML("beforeend", modalHTML);
-// Get modal elements
-const modal = document.querySelector("#modal");
-const closeModal = document.querySelector(".close-modal");
-const modalText = document.querySelector("#modal-text");
+const closeButton = document.createElement("button");
+closeButton.textContent = "Close";
+closeButton.style.marginTop = "10px";
+closeButton.style.display = "block";
+closeButton.style.marginLeft = "auto";
+closeButton.style.marginRight = "auto";
+closeButton.style.backgroundColor = "#fff";
+closeButton.style.padding = "10px 20px";
+closeButton.style.borderRadius = "5px";
+closeButton.style.cursor = "pointer";
 
-// Show modal when a breed is clicked
-const tbody = document.querySelector("#user-result tbody");
-tbody.addEventListener("click", function (event) {
-	if (event.target.tagName === "TD") {
-		modalText.textContent = event.target.textContent;
-		modal.style.display = "block";
-	}
+closeButton.addEventListener("click", function () {
+    modal.style.display = "none";
 });
 
-// Close modal when close icon is clicked
-closeModal.addEventListener("click", function () {
-	modal.style.display = "none";
-});
+modalContent.appendChild(closeButton);
 
-// Close modal when background is clicked
-modal.addEventListener("click", function (event) {
-	if (event.target === modal) {
-		modal.style.display = "none";
-	}
-});
 
-// With this code, the user can now click on a breed in the table to see more details in the modal. The modal can be closed by clicking the close icon or outside the modal background.
 
-// Scroll to top of page when breed is clicked in the modal
-tbody.addEventListener("click", function (event) {
-	if (event.target.tagName === "TD") {
-		modalText.textContent = event.target.textContent;
-		modal.style.display = "block";
-		window.scrollTo(0, 0);
-	}
-});
 
-	// With this code, the user will be automatically scrolled back to the top of the page when they click on a breed in the modal.
+const modalText = document.createElement("p");
+modalText.textContent = "Thank you for using our webpage";
+modalText.style.textAlign = "center";
+
+modalContent.appendChild(modalText);
+modal.appendChild(modalContent);
+document.body.appendChild(modal);

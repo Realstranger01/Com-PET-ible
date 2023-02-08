@@ -40,7 +40,11 @@ function tabulateAnswers() {
       answerbox.innerHTML = "The ideal dog for you is a dog that is low maintainance. These include...";
     }
     if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
+<<<<<<< HEAD
       answerbox.innerHTML = "The ideal dog for you is a medium maintance. These include...";
+=======
+      answerbox.innerHTML = "You are an altruistic coder! You love to help people and feel the positive impact of your work every day. Altruistic coders are out there every day making the world a better place. Computer scientists write software to more effectively help doctors diagnose illnesses such as cancer, connect people in third world countries to education and medical resources on the internet, code websites and software for nonprofit organizations, and much more!";
+>>>>>>> e57db2041dccc484f09289ebfbc34aa4d9f1c11e
     }
     if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
       answerbox.innerHTML = "The ideal dog for you will be higher maintance. These include... ";
