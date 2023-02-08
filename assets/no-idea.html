@@ -28,7 +28,7 @@
             <div class="navbar-collapse collapse show" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./assets/find.html">Find Your Match</a>
+                        <a class="nav-link js-scroll-trigger" href="./find.html">Find Your Match</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="https://funnmedia.zendesk.com/hc/en-us/articles/360040360231-What-Are-Activity-Levels-and-How-Do-They-Work-">Your Lifestyle</a>
@@ -40,8 +40,19 @@
             </div>
 
         </div>
+
     </nav>
 
+ <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-6">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Breed" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="container"> 
     <div id="wrapper">
         <h1>What's your best dog match?</h1>
         <p>Take this quiz to find out!</p>
@@ -156,27 +167,20 @@
                                                                                                 barking that might come
                                                                                                 with it
                                                                                             </label><br />
-                                                                                            <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+                                                                                            <button type="button" class="btn btn-info" href="./result.html">Submit Answers</button>
+                                                                                        
                                                                                             <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
                                                                                             </form>
                                                                                             
                                                                                             
-                                                                                            <div id="answer">Your result will show up here!</div>
+                    
                                                                                           </div>
 
 
         </form>
-
     </div>
-    <div class="container-fluid my-5">
-        <div class="row">
-            <div class="col-6">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search Breed" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
+    </div>
+   
     
 
 
