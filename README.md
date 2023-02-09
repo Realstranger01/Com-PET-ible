@@ -61,8 +61,8 @@ Please refer to the licence in the repo.
 
 ## Author
 
-* Hamza Osman - Intial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
-* Dragos - Intial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
-* Kele - Intial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
+* Hamza - Intial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
+* Dragos - Intial work - [DrGoshD](https://github.com/Realstranger01/Com-PET-ible.git)
+* Kelen - Intial work - [kelenyathi](https://github.com/Realstranger01/Com-PET-ible.git)
 
 
