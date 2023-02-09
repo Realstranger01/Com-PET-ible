@@ -127,3 +127,57 @@ footer {
 
 
 }
+
+/* Default styles for larger screens */
+body {
+   font-size: 16px;
+}
+
+header {
+   background-color: blue;
+   padding: 20px;
+   color: white;
+}
+
+/* Media query for tablet screens (768px - 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   body {
+      font-size: 14px;
+   }
+
+   header {
+      background-color: green;
+      padding: 15px;
+   }
+}
+
+/* Media query for mobile screens (320px - 767px) */
+@media only screen and (max-width: 767px) {
+   .col-6 {
+      margin-left: 0;
+      margin-top: 0;
+      align-items: center;
+      justify-content: center;
+   }
+
+   body {
+      font-size: 12px;
+   }
+
+   header {
+      background-color: red;
+      padding: 10px;
+   }
+}
+
+/* Media query for large desktop screens (1280px and up) */
+@media only screen and (min-width: 1280px) {
+   body {
+      font-size: 18px;
+   }
+
+   header {
+      background-color: yellow;
+      padding: 25px;
+   }
+}
