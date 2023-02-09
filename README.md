@@ -1,6 +1,6 @@
 # Com-PET-ible
 
-A simple Web Application for dog owners to select the best matched dog breed to suit their lifestyle . This will allow the user to visit the website before buying or adopting and making the correct choice.
+A simple Web Application for dog owners to select the best matched dog breed to suit their lifestyle. This will allow the user to visit the website before buying or adopting and making the correct choice.
 
 ## Getting Started:
 
@@ -8,19 +8,17 @@ Simply open up the deployed link [Com-PET-ible](https://realstranger01.github.io
 
 ![Com-PET-ible](./assets/images/screenshot.png)
 
-### Prerequisites
+### Pre-requirements
 
 You need to have a modern browser able to handle html5 and css.
 
 Some popular browsers are:
-```
-
 Google Chrome
 Mozilla Firefox
 Safari
 Opera
 Edge
-```
+
 ### Description
 
 For this team project, we have created an interactive web application using Bootstrap as the front-end framework. The application will be deployed to GitHub Pages and will be responsive to different screen sizes.
@@ -33,15 +31,13 @@ The application will have a polished user interface, ensuring an enjoyable exper
 
 ### Installation
 
-The intallation process consisted of:
-```
+The installation process consisted of:
 
 * Application deployed at live URL.
 
 * Application loads with no errors.
 
 * GitHub repository contains application code.
-```
 
 ### What We Learned
 
@@ -55,14 +51,12 @@ As a team, we learned the importance of utilizing frameworks such as Bootstrap f
 
 * Javascript
 
-## licence
+## License
 
-Please refer to the licence in the repo.
+Please refer to the license in the repo.
 
 ## Author
 
-* Hamza - Intial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
-* Dragos - Intial work - [DrGoshD](https://github.com/Realstranger01/Com-PET-ible.git)
-* Kelen - Intial work - [kelenyathi](https://github.com/Realstranger01/Com-PET-ible.git)
-
-
+* Hamza - Initial work - [RealStranger](https://github.com/Realstranger01/Com-PET-ible.git)
+* Dragos - Initial work - [DrGoshD](https://github.com/Realstranger01/Com-PET-ible.git)
+* Kele - Initial work - [kelenyathi](https://github.com/Realstranger01/Com-PET-ible.git)
