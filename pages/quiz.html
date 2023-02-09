@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/quiz.css">
-    <link rel="stylesheet" type="text/css" href="./css/syle.css">
-    <link rel="stylesheet" type="text/js" href="./js/quiz.js">
+    <link rel="stylesheet" type="text/css" href="../assets/css/quiz.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/syle.css">
+    <link rel="stylesheet" type="text/js" href="../assets/js/quiz.js">
 
     <title>Com-PET-ible</title>
 </head>
@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="../index.html"> <img src="./images/logo_paw.jpg" width="30"
+            <a class="navbar-brand js-scroll-trigger" href="../index.html"> <img src="../assets/images/logo_paw.jpg" width="30"
                     height="30" alt="Logo">
                 Com-PET-ible </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -28,7 +28,7 @@
             <div class="navbar-collapse collapse show" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./find.html">Find Your Match</a>
+                        <a class="nav-link js-scroll-trigger" href="../pages/find.html">Find Your Match</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger"
@@ -88,7 +88,7 @@
                                     </label><br />
 
                                     <h2>What is the size of your property?</h2>
-                                    §
+                                    
                                     <label><input type="radio" name="q4" value="c1">
                                         Apartment/House - no garden
                                         <label><input type="radio" name="q4" value="c2">
@@ -139,13 +139,13 @@
                                                                             </h2>
                                                                             <label><input type="radio" name="q9"
                                                                                     value="c1">
-                                                                                I don’t mind shedding
+                                                                                I don't mind shedding
                                                                                 <label><input type="radio" name="q9"
                                                                                         value="c2">
                                                                                     A lot is not ok
                                                                                     <label><input type="radio" name="q9"
                                                                                             value="c3">
-                                                                                        I prefer a dog that doesn’t shed
+                                                                                        I prefer a dog that doesn't shed
                                                                                         much
                                                                                     </label><br />
 
@@ -169,7 +169,8 @@
                                                                                                 barking that might come
                                                                                                 with it
                                                                                             </label><br />
-                                                                                            <button type="button" class="btn btn-info" href="./result.html">Submit Answers</button>
+                                                                                            <button type="button" class="btn btn-info" onclick = "window.location.href='../pages/result.html';"
+                                                                                            >View Results</button>
                                                                                         
                                                                                             <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
                                                                                             </form>
@@ -198,7 +199,7 @@ crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="./js/quiz.js"></script>
+<script type="text/javascript" src="../assets/js/quiz.js"></script>
 
 
 </div>
